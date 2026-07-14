@@ -143,6 +143,21 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', serif; color: var(--dark); }
     border: 1px solid rgba(200,160,32,0.2);
 }
 
+/* ===================== STATS ===================== */
+.stats { background: var(--accent); padding: 40px 0; }
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+.stat-item { text-align: center; padding: 20px; border-right: 1px solid rgba(0,0,0,0.12); }
+.stat-item:last-child { border-right: none; }
+.stat-number { display: block; font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: var(--dark); line-height: 1; margin-bottom: 6px; }
+.stat-label { display: block; font-size: 0.75rem; font-weight: 700; color: rgba(13,13,11,0.65); text-transform: uppercase; letter-spacing: 1px; }
+
+@media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .stat-item:nth-child(2) { border-right: none; }
+    .stat-item { border-bottom: 1px solid rgba(0,0,0,0.12); }
+    .stat-item:nth-child(3), .stat-item:nth-child(4) { border-bottom: none; }
+}
+
 /* ===================== SERVICES ===================== */
 .services { padding: 90px 0; background: var(--white); }
 
