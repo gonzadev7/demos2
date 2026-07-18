@@ -1,15 +1,15 @@
 window.addEventListener('scroll', function () {
     const header = document.querySelector('.top-header');
     if (window.scrollY > 60) {
+        header.style.background = '#ffffff';
+        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.09)';
+        header.querySelector('.logo h1').style.color = '#2a1818';
+        header.querySelector('.logo p').style.color = '#aaa';
+    } else {
         header.style.background = '#2a1818';
-        header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.4)';
+        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.18)';
         header.querySelector('.logo h1').style.color = '#ffffff';
         header.querySelector('.logo p').style.color = 'rgba(212,160,144,0.6)';
-    } else {
-        header.style.background = '#ffffff';
-        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.07)';
-        header.querySelector('.logo h1').style.color = '';
-        header.querySelector('.logo p').style.color = '';
     }
 });
 
