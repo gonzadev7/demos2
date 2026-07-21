@@ -3,13 +3,13 @@ window.addEventListener('scroll', function () {
     if (window.scrollY > 60) {
         header.style.background = '#ffffff';
         header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.09)';
-        header.querySelector('.logo h1').style.color = '#0d1a2a';
+        header.querySelector('.logo h1').style.color = '#3a1020';
         header.querySelector('.logo p').style.color = '#aaa';
     } else {
-        header.style.background = '#0d1a2a';
+        header.style.background = '#3a1020';
         header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.25)';
         header.querySelector('.logo h1').style.color = '#ffffff';
-        header.querySelector('.logo p').style.color = 'rgba(90,130,184,0.55)';
+        header.querySelector('.logo p').style.color = 'rgba(240,128,168,0.55)';
     }
 });
 

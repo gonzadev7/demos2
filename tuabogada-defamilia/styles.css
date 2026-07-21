@@ -1,10 +1,10 @@
 :root {
-    --primary: #2a4a7a;
-    --secondary: #5a82b8;
-    --accent: #2a4a7a;
-    --accent-hover: #1a3060;
-    --dark: #0d1a2a;
-    --light: #f8f6f2;
+    --primary: #d84878;
+    --secondary: #f080a8;
+    --accent: #d84878;
+    --accent-hover: #b02858;
+    --dark: #3a1020;
+    --light: #fdf0f5;
     --text: #1a1a1a;
     --white: #ffffff;
 }
@@ -56,7 +56,7 @@ body {
 .logo h1 span { color: var(--secondary); }
 .logo p {
     font-size: 0.7rem;
-    color: rgba(90,130,184,0.55);
+    color: rgba(240,128,168,0.55);
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-top: 1px;
@@ -66,7 +66,7 @@ body {
 /* ── Hero ── */
 .hero {
     padding: 130px 0 80px;
-    background: linear-gradient(135deg, #f8f6f2 0%, #eef2f8 55%, #e4ecf8 100%);
+    background: linear-gradient(135deg, #fdf0f5 0%, #fce0ec 55%, #f8d0e4 100%);
     position: relative;
     overflow: hidden;
 }
@@ -87,14 +87,14 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid var(--accent);
-    box-shadow: 0 8px 32px rgba(42,74,122,0.18);
+    box-shadow: 0 8px 32px rgba(216,72,120,0.18);
 }
 
 .hero-text { flex: 1; }
 
 .badge {
     display: inline-block;
-    background: rgba(42,74,122,0.1);
+    background: rgba(216,72,120,0.1);
     color: var(--accent);
     font-size: 0.72rem;
     font-weight: 700;
@@ -120,7 +120,7 @@ body {
 }
 
 .hero-text p {
-    color: #3a4a5a;
+    color: #6a1838;
     font-size: 0.95rem;
     max-width: 520px;
     margin-bottom: 30px;
@@ -152,7 +152,7 @@ body {
 
 .urgency-text {
     font-size: 0.78rem;
-    color: #4a5a7a;
+    color: #8a2848;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -160,7 +160,7 @@ body {
 
 .trust-badge-bottom {
     font-size: 0.78rem;
-    color: #4a5a7a;
+    color: #8a2848;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -187,7 +187,7 @@ body {
 }
 
 .section-title p {
-    color: #4a5a7a;
+    color: #8a2848;
     font-size: 0.93rem;
     max-width: 560px;
     margin: 0 auto;
@@ -203,13 +203,13 @@ body {
     background: var(--light);
     border-radius: 16px;
     padding: 36px 28px;
-    border: 1.5px solid #d8e4f0;
+    border: 1.5px solid #f5c8dc;
     transition: border-color .2s, box-shadow .2s, transform .2s;
 }
 
 .service-card:hover {
     border-color: var(--accent);
-    box-shadow: 0 8px 28px rgba(42,74,122,0.12);
+    box-shadow: 0 8px 28px rgba(216,72,120,0.12);
     transform: translateY(-3px);
 }
 
@@ -218,7 +218,7 @@ body {
     border-color: var(--dark);
 }
 
-.service-card.highlight .card-icon { background: rgba(90,130,184,0.18); }
+.service-card.highlight .card-icon { background: rgba(240,128,168,0.18); }
 .service-card.highlight .card-icon i { color: var(--secondary); }
 .service-card.highlight h3 { color: var(--white); }
 .service-card.highlight p { color: rgba(255,255,255,0.75); }
@@ -226,7 +226,7 @@ body {
 .card-icon {
     width: 48px;
     height: 48px;
-    background: rgba(42,74,122,0.1);
+    background: rgba(216,72,120,0.1);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -248,7 +248,7 @@ body {
 
 .service-card p {
     font-size: 0.85rem;
-    color: #4a5a7a;
+    color: #8a2848;
     line-height: 1.65;
 }
 
@@ -274,7 +274,7 @@ body {
 .features-text h2 em { font-style: italic; color: var(--accent); }
 
 .features-text > p {
-    color: #4a5a7a;
+    color: #8a2848;
     font-size: 0.93rem;
     margin-bottom: 32px;
 }
@@ -300,7 +300,7 @@ body {
     flex-shrink: 0;
 }
 
-.feature-list li div { font-size: 0.88rem; color: #3a4a5a; line-height: 1.65; }
+.feature-list li div { font-size: 0.88rem; color: #6a1838; line-height: 1.65; }
 .feature-list li div strong { color: var(--dark); }
 
 .btn-primary {
@@ -339,7 +339,7 @@ body {
 }
 
 .contact-info > p {
-    color: #4a5a7a;
+    color: #8a2848;
     font-size: 0.88rem;
     margin-bottom: 28px;
 }
@@ -349,7 +349,7 @@ body {
     align-items: flex-start;
     gap: 14px;
     padding: 14px 0;
-    border-bottom: 1px solid #d8e4f0;
+    border-bottom: 1px solid #f5c8dc;
     text-decoration: none;
 }
 
@@ -373,14 +373,14 @@ body {
 
 .info-item p {
     font-size: 0.85rem;
-    color: #4a5a7a;
+    color: #8a2848;
 }
 
 .contact-form-container {
     background: var(--light);
     border-radius: 18px;
     padding: 40px 36px;
-    border: 1.5px solid #d8e4f0;
+    border: 1.5px solid #f5c8dc;
     box-shadow: 0 4px 20px rgba(0,0,0,0.04);
 }
 
@@ -397,7 +397,7 @@ body {
 .form-group select {
     width: 100%;
     padding: 13px 16px;
-    border: 1.5px solid #c0d4e8;
+    border: 1.5px solid #f0b0c8;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.88rem;
